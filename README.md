@@ -2,25 +2,29 @@
 
 This is a dashboard for Tracking my budget and expenses.
 
-## Project setup
+### Project Setup
+
+To get started, clone this project to run it locally.
+
+```bash
+git clone https://github.com/jmrplbrs/frontend-budget-expense
 ```
+
+Install dependencies:
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+Run project:
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+### Compiles and minifies for production deployment
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## That's it, Thank you!
