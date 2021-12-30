@@ -1,4 +1,6 @@
-# fe_track_n_save
+# Frontend - BudgetExpense
+
+This is a dashboard for Tracking my budget and expenses.
 
 ## Project setup
 ```
