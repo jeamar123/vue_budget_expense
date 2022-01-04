@@ -320,7 +320,6 @@ export default {
         planned: [],
         budgets: [],
       };
-      
       if(!vm.isEdit){ 
         vm.editPlannedArr = []; 
         vm.planned.forEach(item => {
@@ -344,18 +343,22 @@ export default {
           });
         });
         vm.isEdit = true;
+
+        console.log(vm.editPlannedArr)
         return false;  
       }
 
+      console.log(vm.editPlannedArr);
+
       vm.editPlannedArr.forEach(item => {
         let params = {
-          id: item.id,
           date: item.date,
           amount: item.amount,
           name: item.name,
         }
         let check = vm.checkForm(params);
         if(check.errors){ vm.showErrors = true; return false; }
+        params.id = item.id;
         payload.planned.push(params);
       });
       
